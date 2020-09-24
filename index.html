@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my personal dairy</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class='main-container'>
+      <h1 class ="title">My Personal Dairy</h1>
+      <form action="" id="entryForm">
+          <textarea
+            class="entry-textbox"
+            placeholder="What's on your mind today..."
+          required></textarea>
+        </br>
+        <div class="buttons">
+          <button class = "button" id='addEntry'>Add an Entry</button>
+          <button class = "button" id='showAll'>All Entries</button>
+          <button class = "button" id='delAll'>Del All Entries</button>
+        </div>
+      </form>
+      <section id ="entries">
+      </section>
+    </div>
+    <script src="JS/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+body {
+  margin: 2%;
+  font-family: "Permanent Marker", "Gill Sans", "Gill Sans MT";
+  display: grid;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.main-container {
+  border: 2px solid black;
+  background-color: #16697a;
+  padding: 0.3em;
+  border-radius: 15px;
+}
+
+.title {
+  color: floralwhite;
+  text-align: center;
+  margin: 0.1em;
+  letter-spacing: 1px;
+}
+
+.entry-textbox {
+  background-color: burlywood;
+  width: 25em;
+  height: 15em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border: unset;
+  border-radius: 15px;
+}
+
+.entry-textbox:focus {
+  outline: none;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3em;
+}
+.button {
+  border-radius: 25px;
+  padding: 7px 16px;
+  border: unset;
+  background-color: whitesmoke;
+}
+
+.button:hover,
+.button:focus {
+  background-color: grey;
+  cursor: pointer;
+  outline: none;
+  opacity: 1.2;
+}
+
+#entries {
+  background-color: #16697a;
+  color: #ede7e3;
+  border: unset;
+  letter-spacing: 0.5px;
+  font-family: "Gill Sans", "Gill Sans MT";
+  margin: 0;
+  padding: 0;
+}
+
+.entries-nav {
+  display: flex;
+  align-items: center;
+}
+
+.single-entry {
+  margin: 0;
+}
+
+.display-entry-button {
+  margin: 0.5em 2em 0.5em 0.5em;
+  border-radius: 0.2em;
+  border: unset;
+}
+
+.display-entry-button:hover,
+.display-entry-button:focus {
+  cursor: pointer;
+  outline: none;
+}
